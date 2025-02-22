@@ -1,0 +1,1 @@
+std::vector<int> vec; vec.reserve(11); for (int i = 0; i < 10; ++i) { vec.push_back(i); } if (vec.size() > 10) { vec[10] = 10; } else { // Handle case where size is less than 11 } 
