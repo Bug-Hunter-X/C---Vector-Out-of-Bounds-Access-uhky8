@@ -1,0 +1,1 @@
+std::vector<int> vec; vec.reserve(10); for (int i = 0; i < 10; ++i) { vec.push_back(i); } vec[10] = 10; // ERROR: accessing out of bounds
